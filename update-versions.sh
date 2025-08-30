@@ -1,8 +1,8 @@
 #!/bin/bash
-version=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/thomst08/requestrr/releases/latest" | jq -re .tag_name) || exit 1
+version=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/autobrr/qui/releases/latest" | jq -re .tag_name) || exit 1
 [[ -z ${version} ]] && exit 0
 [[ ${version} == null ]] && exit 0
 json=$(cat VERSION.json)
 jq --sort-keys \
-    --arg version "${version//V/}" \
+    --arg version "${version//v/}" \
     '.version = $version' <<< "${json}" | tee VERSION.json
