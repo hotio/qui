@@ -4,4 +4,5 @@
 umask "${UMASK}"
 
 export QUI__PORT="${WEBUI_PORTS%%/*}"
+export QUI__HOST="0.0.0.0"
 exec s6-setuidgid hotio "${APP_DIR}/qui" serve --config-dir "${CONFIG_DIR}"
