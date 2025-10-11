@@ -2,13 +2,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-10-09T03:10:35.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/18364179646",
+    "last_updated": "2025-10-11T21:48:25.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/18435146650",
     "latest": true,
     "tags": [
       "release",
-      "release-1.3.0",
-      "release-553bb69"
+      "release-1.4.0",
+      "release-fababee"
     ]
   }
 }
