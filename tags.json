@@ -2,13 +2,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-12-08T10:56:08.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/20025672602",
+    "last_updated": "2025-12-08T20:52:58.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/20042425081",
     "latest": true,
     "tags": [
       "release",
-      "release-1.9.0",
-      "release-a85a115"
+      "release-1.9.1",
+      "release-2be423b"
     ]
   }
 }
