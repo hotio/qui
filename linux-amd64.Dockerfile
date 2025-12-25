@@ -4,7 +4,7 @@ ARG UPSTREAM_DIGEST_AMD64
 FROM ${UPSTREAM_IMAGE}@${UPSTREAM_DIGEST_AMD64}
 EXPOSE 7476
 ARG IMAGE_STATS
-ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="7476/tcp,7476/udp"
+ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="7476/tcp"
 
 ARG VERSION
 RUN curl -fsSL "https://github.com/autobrr/qui/releases/download/v${VERSION}/qui_${VERSION}_linux_x86_64.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=0 && \
