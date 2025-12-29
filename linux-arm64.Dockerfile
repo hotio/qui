@@ -12,3 +12,4 @@ RUN curl -fsSL "https://github.com/autobrr/qui/releases/download/v${VERSION}/qui
     chmod +x "${APP_DIR}/qui"
 
 COPY root/ /
+RUN find /etc/s6-overlay/s6-rc.d -name "run*" -execdir chmod +x {} +
