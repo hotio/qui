@@ -1,18 +1,19 @@
 {
   "release": {
-    "commit_message": "Upstream image update",
+    "commit_message": "Version update: 1.11.0 => 1.12.0",
+    "commit_sha": "8a918f177a7e3a28782047be83c252e338bb1b37",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-04T09:26:33.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/20690833390",
+    "last_updated": "2026-01-04T21:40:15.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/20699516868",
     "latest": true,
     "tags": [
       "release",
-      "release-1.11.0",
-      "release-07a3351",
+      "release-1.12.0",
+      "release-8a918f1",
       "release-v1",
-      "release-v1.11",
-      "release-v1.11.0"
+      "release-v1.12",
+      "release-v1.12.0"
     ]
   }
 }
